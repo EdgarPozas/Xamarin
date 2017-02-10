@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CambiarColores" x:Class="CambiarColores.CambiarColoresPage">
+	<StackLayout Orientation="Vertical" Spacing="20" Margin="30">
+		
+		<Label Text="Selecciona el combo para cambiar de color el cuadrado"></Label>
+
+		<Picker x:Name="picker" SelectedIndexChanged="cambiar_color">
+			<Picker.Items>
+				<x:String>Rojo</x:String>
+				<x:String>Verde</x:String>
+				<x:String>Azul</x:String>
+			</Picker.Items>
+		</Picker>
+		<StackLayout x:Name="box" WidthRequest="50" HeightRequest="50" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Black"></StackLayout>
+	</StackLayout>
+</ContentPage>

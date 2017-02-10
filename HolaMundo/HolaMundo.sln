@@ -1,0 +1,19 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HolaMundo", "HolaMundo\HolaMundo.shproj", "{55892EF8-2767-4A48-AA61-B7C93AD258D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo.Droid", "Droid\HolaMundo.Droid.csproj", "{D1E78FB7-0E75-4CC4-8412-DE04135E84E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1E78FB7-0E75-4CC4-8412-DE04135E84E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E78FB7-0E75-4CC4-8412-DE04135E84E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E78FB7-0E75-4CC4-8412-DE04135E84E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E78FB7-0E75-4CC4-8412-DE04135E84E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

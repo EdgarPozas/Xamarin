@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CambiarPropiedadesCuadrado" x:Class="CambiarPropiedadesCuadrado.CambiarPropiedadesCuadradoPage">
+	<ScrollView>
+		<StackLayout Orientation="Vertical" Spacing="20" Margin="30">
+			<StackLayout Orientation="Vertical" Spacing="10">
+				<Label Text="Mueve para cambiar el color"></Label>
+				<Label Text="R" x:Name="lbl_r"></Label>
+				<Slider x:Name="sl_r" Value="100" Maximum="255" Minimum="1" ValueChanged="cambiar_valor_color"></Slider>
+				<Label Text="G" x:Name="lbl_g"></Label> 
+				<Slider x:Name="sl_g" Value="100" Maximum="255" Minimum="1" ValueChanged="cambiar_valor_color"></Slider>	
+				<Label Text="B" x:Name="lbl_b"></Label>
+				<Slider x:Name="sl_b" Value="100" Maximum="255" Minimum="1" ValueChanged="cambiar_valor_color"></Slider>
+			</StackLayout>
+			<Image x:Name="box" WidthRequest="100" HeightRequest="100" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Black"></Image>
+			<StackLayout Orientation="Vertical" Spacing="10">
+				<Label Text="Mueve para cambiar el tamaño"></Label>
+				<Label Text="Tamaño " x:Name="lbl_tam"></Label>
+				<Slider x:Name="sl_tam" Value="1" Maximum="1.3" Minimum="0.5" ValueChanged="cambiar_valor_tamaño"></Slider>
+				<Label Text="Rotar en X " x:Name="lbl_rot_x"></Label>
+				<Slider x:Name="sl_rot_x" Value="100" Maximum="360" Minimum="0" ValueChanged="cambiar_valor_rotacion"></Slider>
+				<Label Text="Rotar en Y " x:Name="lbl_rot_y"></Label>
+				<Slider x:Name="sl_rot_y" Value="100" Maximum="360" Minimum="0" ValueChanged="cambiar_valor_rotacion"></Slider>
+			</StackLayout>
+		</StackLayout>
+	</ScrollView>
+
+</ContentPage>

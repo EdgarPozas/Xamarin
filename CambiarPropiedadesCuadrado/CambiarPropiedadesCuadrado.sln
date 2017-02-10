@@ -1,0 +1,19 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CambiarPropiedadesCuadrado", "CambiarPropiedadesCuadrado\CambiarPropiedadesCuadrado.shproj", "{C24261EA-E143-4E55-BD86-77644842C0A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CambiarPropiedadesCuadrado.Droid", "Droid\CambiarPropiedadesCuadrado.Droid.csproj", "{CAC8E87C-0E9C-4CB6-8DD9-4413725724D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC8E87C-0E9C-4CB6-8DD9-4413725724D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC8E87C-0E9C-4CB6-8DD9-4413725724D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC8E87C-0E9C-4CB6-8DD9-4413725724D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC8E87C-0E9C-4CB6-8DD9-4413725724D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
